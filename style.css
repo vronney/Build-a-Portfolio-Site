@@ -54,6 +54,10 @@
   display: flex;
 }
 
+.image3 {
+  padding-left: 5px;
+}  
+
 .logo {
   float: left;
   width: 60px;
