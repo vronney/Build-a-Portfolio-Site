@@ -1,0 +1,44 @@
+@media screen and (max-width: 419px) {
+  .heading {font-size: 30px;}
+}
+@media screen and (min-width: 420px) {
+  body {margin-left: 15%; margin-right: 15%;}
+  .heading {font-size: 50px;}
+  .container2 {width: 100%; display: flex;}
+}
+.heading, .description,.work {
+  color: #2d3c49;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading, .description {
+  text-align: right;
+}
+.work {
+  color: #7d97ad;
+}
+.logo {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: #555;
+  margin: 0px;
+  max-width: 100%;
+}
+figcaption {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+}
+.image1:hover {
+ transform: scale(1.5);
+}
+.image2:hover {
+ transform: scale(1.5);
+}
+.image3:hover {
+ transform: scale(1.5);
+}
+.monitor {
+  width: 300px;
+  height: 400px;
+}
